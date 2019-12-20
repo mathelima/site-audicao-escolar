@@ -1,0 +1,272 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Auê - Audição do Escolar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-deep_orange.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                <span class="mdl-layout__title">Simple portfolio website</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link" href="index.html">O Projeto</a>
+                    <a class="mdl-navigation__link is-active" href="questionarios.html">Questionários</a>
+                    <a class="mdl-navigation__link" href="testeauditivo.html">Teste auditivo</a>
+                    <a class="mdl-navigation__link" href="jogos.html">Jogos</a>
+                    <a class="mdl-navigation__link" href="educacao.html">Educação</a>
+                    <a class="mdl-navigation__link" href="login.html">Login</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link" href="index.html">O Projeto</a>
+                    <a class="mdl-navigation__link is-active" href="questionarios.html">Questionários</a>
+                    <a class="mdl-navigation__link" href="testeauditivo.html">Teste auditivo</a>
+                    <a class="mdl-navigation__link" href="jogos.html">Jogos</a>
+                    <a class="mdl-navigation__link" href="educacao.html">Educação</a>
+                    <a class="mdl-navigation__link" href="login.html">Login</a>
+                </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width portfolio-contact">
+                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Questionários</h2>
+                    </div>
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/Personagens/PERSONAGEM7.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <p>
+                            <h6>Cadastro geral dos escolares.</h6>
+                        </p>
+                        <form action="#" class="">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> <h6>Nome</h6>
+                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="nome">
+                                <label class="mdl-textfield__label" for="nome"></label>
+                                <span class="mdl-textfield__error">Apenas letras e espaços</span>
+                            </div>
+                            <div><h6>Sexo</h6>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                              <input type="radio" id="option-1" class="mdl-radio__button" name="sexo" value="menino">
+                              <span class="mdl-radio__label">Menino</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                              <input type="radio" id="option-2" class="mdl-radio__button" name="sexo" value="menina">
+                              <span class="mdl-radio__label">Menina</span>
+                            </label>
+                            </div>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> <h6>Data de Nascimento</h6>
+                                <input class="mdl-textfield__input" type="date" id="dataNascimento">
+                                <label class="mdl-textfield__label" for="dataNascimento"></label>
+                            </div>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> <h6>Idade</h6>
+                                <input class="mdl-textfield__input" pattern="[0-9]*" type="text" id="Idade">
+                                <label class="mdl-textfield__label" for="idade"></label>
+                                <span class="mdl-textfield__error">Apenas números</span>
+                            </div>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"><h6>Escola</h6>
+                                <input class="mdl-textfield__input" type="text" id="escola">
+                                <label class="mdl-textfield__label" for="escola"></label>
+                            </div>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"><h6>Turma</h6>
+                                <input class="mdl-textfield__input" type="text" id="turma">
+                                <label class="mdl-textfield__label" for="turma"></label>
+                            </div> 
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"><h6>Cidade</h6>
+                                <input class="mdl-textfield__input" type="text" id="cidade">
+                                <label class="mdl-textfield__label" for="cidade"></label>
+                            </div>    
+                            <div>
+                                <p><h6>Você acha que escuta bem?</h6> </p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta1a">
+                              <input type="radio" id="resposta1a" class="mdl-radio__button" name="questao1" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta1b">
+                              <input type="radio" id="resposta1b" class="mdl-radio__button" name="questao1" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>
+                            <div>
+                                <p><h6>Você já teve (ou tem) dor nos ouvidos?</h6> </p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta2a">
+                              <input type="radio" id="resposta2a" class="mdl-radio__button" name="questao2" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta2b">
+                              <input type="radio" id="resposta2b" class="mdl-radio__button" name="questao2" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>
+                            </div>
+                            <div>
+                                <p><h6>Você já teve (ou tem) zumbido (‘apito’/‘barulho’) nos ouvidos ou na cabeça? </h6></p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta3a">
+                              <input type="radio" id="resposta3a" class="mdl-radio__button" name="questao3" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta3b">
+                              <input type="radio" id="resposta3b" class="mdl-radio__button" name="questao3" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>                                                     
+                            </div>
+                            <div>
+                                <p><h6>Você acha que às vezes você escuta, mas não entende o que estão falando? </h6></p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta4a">
+                              <input type="radio" id="resposta4a" class="mdl-radio__button" name="questao4" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta4b">
+                              <input type="radio" id="resposta4b" class="mdl-radio__button" name="questao4" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>                                                      
+                            </div>
+                            <div>
+                                <p><h6>Você acha a sua sala de aula/escola muito barulhentas? </h6></p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta5a">
+                              <input type="radio" id="resposta5a" class="mdl-radio__button" name="questao5" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta5b">
+                              <input type="radio" id="resposta5b" class="mdl-radio__button" name="questao5" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>                                                      
+                            </div>
+                            <div>
+                                <p><h6>Você já se incomodou (ou se incomoda) com algum barulho em casa ou na rua?</h6> </p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta6a">
+                              <input type="radio" id="resposta6a" class="mdl-radio__button" name="questao6" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta6b">
+                              <input type="radio" id="resposta6b" class="mdl-radio__button" name="questao6" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>                                                      
+                            </div> 
+                            <div>
+                                <p><h6>Você usa fones de ouvido?</h6> </p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta7a">
+                              <input type="radio" id="resposta7a" class="mdl-radio__button" name="questao7" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta7b">
+                              <input type="radio" id="resposta7b" class="mdl-radio__button" name="questao7" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>                                                      
+                            </div> 
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> <h6>Caso sim, há quanto tempo (em anos)?</h6>
+                                <input class="mdl-textfield__input" pattern="[0-9]*" type="text" id="FoneTempo">
+                                <label class="mdl-textfield__label" for="FoneTempo"></label>
+                                <span class="mdl-textfield__error">Apenas números</span>
+                            </div>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> <h6>Durante quantas horas por dia?</h6>
+                                <input class="mdl-textfield__input" pattern="[0-9]*" type="text" id="FoneHoras">
+                                <label class="mdl-textfield__label" for="FoneHoras"></label>
+                                <span class="mdl-textfield__error">Apenas números</span>
+                            </div>
+                            <div>
+                                <p><h6>E qual tipo de fone de ouvido você usa?</h6> </p>
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="resposta8a">
+                              <input type="checkbox" id="resposta8a" class="mdl-checkbox__input" name="questao8" value="dentro">
+                              <span class="mdl-checkbox__label">o que fica dentro da orelha</span>
+                            </label>
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="resposta8b">
+                              <input type="checkbox" id="resposta8b" class="mdl-checkbox__input" name="questao8" value="fora">
+                              <span class="mdl-checkbox__label">o que fica por fora da orelha</span>
+                            </label>                                                    
+                            </div> 
+                            <div>
+                                <p><h6>Você já usou (ou costuma usar) protetores de ouvido quando está num lugar com muito barulho?</h6> </p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta9a">
+                              <input type="radio" id="resposta9a" class="mdl-radio__button" name="questao9" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta9b">
+                              <input type="radio" id="resposta9b" class="mdl-radio__button" name="questao9" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>
+                            </div>   
+                            <div>
+                                <p><h6>Você já fez algum exame ou teste de audição? </h6></p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta10a">
+                              <input type="radio" id="resposta10a" class="mdl-radio__button" name="questao10" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta10b">
+                              <input type="radio" id="resposta10b" class="mdl-radio__button" name="questao10" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>                                                      
+                            </div>
+                            <div>
+                                <p><h6>Você já participou de alguma atividade (campanha, aula, palestra) em sua escola sobre a audição ou os cuidados que se deve ter com os ouvidos? </h6></p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta11a">
+                              <input type="radio" id="resposta11a" class="mdl-radio__button" name="questao11" value="sim">
+                              <span class="mdl-radio__label">Sim</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta11b">
+                              <input type="radio" id="resposta11b" class="mdl-radio__button" name="questao11" value="nao">
+                              <span class="mdl-radio__label">Não</span>
+                            </label>                                                      
+                            </div>
+                            <div>
+                                <p><h6>Como você considera seu desempenho na escola? </h6></p>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta12a">
+                              <input type="radio" id="resposta12a" class="mdl-radio__button" name="questao12" value="alto">
+                              <span class="mdl-radio__label">Alto</span>
+                            </label>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta12b">
+                              <input type="radio" id="resposta12b" class="mdl-radio__button" name="questao12" value="medio">
+                              <span class="mdl-radio__label">Médio</span>
+                            </label> 
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="resposta12c">
+                              <input type="radio" id="resposta12c" class="mdl-radio__button" name="questao12" value="baixo">
+                              <span class="mdl-radio__label">Baixo</span>
+                            </label> 
+                            </div>
+                            <p>
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                                    Enviar
+                                </button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+</html>
